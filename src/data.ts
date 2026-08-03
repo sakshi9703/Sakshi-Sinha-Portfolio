@@ -1,4 +1,7 @@
 import { Project, Experience } from './types';
+import icwImage from "@/assets/icw/full-ss-icw.png";
+import jobTrackerImage from "@/assets/job-tracker/full-jt-ss.png";
+import nowOrNeverImage from "@/assets/now-or-never/full-now-or-never.png";
 
 export const projects: Project[] = [
   {
@@ -15,7 +18,7 @@ export const projects: Project[] = [
     solution:
       "Developed a scalable MERN application integrating Google Gemini AI to analyze resumes, generate ATS-style feedback, identify missing skills, and create personalized interview questions while providing an intuitive dashboard for tracking applications.",
 
-    image: "assets/screenshots/job-tracker/full-jt-ss.png",
+    image: jobTrackerImage,
 
     techStack: [
       "React",
@@ -76,7 +79,7 @@ export const projects: Project[] = [
     solution:
       "Created a modern productivity platform using React, TypeScript, Firebase, and Google AI Studio to generate intelligent timelines, monitor progress, and synchronize data with Google Sheets.",
 
-    image: "assets/screenshots/now-or-never/full-now-or-never.png",
+    image: nowOrNeverImage,
 
     techStack: [
       "React",
@@ -154,7 +157,7 @@ export const experiences = [
 
     website: "https://icw.net.in",
 
-    image: "src/assets/icw/full-ss-icw.png",
+    image: icwImage,
   },
 ];
 
