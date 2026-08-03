@@ -154,7 +154,7 @@ export const experiences = [
 
     website: "https://icw.net.in",
 
-    image: "assets/screenshots/icw/full-ss-icw.png",
+    image: "src/assets/icw/full-ss-icw.png",
   },
 ];
 
