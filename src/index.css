@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-[#0A0A0B] text-[#FAFAFA] font-sans antialiased selection:bg-blue-500/30 selection:text-white;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply backdrop-blur-[12px] bg-white/5 border border-white/10;
+  }
+}
