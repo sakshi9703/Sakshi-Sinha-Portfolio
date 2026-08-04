@@ -89,7 +89,8 @@ justify-center bg-[#FAFAFA] text-[#0A0A0B] font-bold rounded-xl flex items-cente
             {/* RESUME BUTTON */}
 
             <MagneticButton
-              href="https://drive.google.com/file/d/1VJ2Zm4EE_8_d17jgYbgzkTWGBeEr2rr5/view?usp=drive_link"
+              href="/resume.pdf"
+              download="Sakshi_Sinha_Resume.pdf"
               className="w-full sm:w-auto px-6 py-4 justify-center bg-white/5 border border-white/20 text-white font-bold rounded-xl flex items-center gap-3 backdrop-blur-xl"
             >
               View Resume
@@ -115,7 +116,7 @@ justify-center bg-[#FAFAFA] text-[#0A0A0B] font-bold rounded-xl flex items-cente
         {/* RIGHT TERMINAL */}
 
         <div
-className="
+          className="
 lg:col-span-7
 flex
 justify-center
@@ -123,10 +124,10 @@ items-center
 mt-10
 lg:mt-0
 "
->
+        >
           <div className="hidden lg:flex lg:col-span-7 justify-center">
-    <Terminal />
-</div>
+            <Terminal />
+          </div>
         </div>
       </div>
     </section>

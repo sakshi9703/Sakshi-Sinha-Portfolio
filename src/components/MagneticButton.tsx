@@ -8,6 +8,7 @@ interface MagneticButtonProps {
   strength?: number;
   target?: string;
   rel?: string;
+  download?: boolean | string;
 }
 
 export default function MagneticButton({
@@ -17,6 +18,7 @@ export default function MagneticButton({
   strength = 0.4,
   target,
   rel,
+  download,
 }: MagneticButtonProps) {
   const ref = useRef<HTMLAnchorElement>(null);
   const x = useMotionValue(0);
@@ -44,6 +46,7 @@ export default function MagneticButton({
       href={href}
       target={target}
       rel={rel}
+      download={download}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
       style={{ x: springX, y: springY }}
