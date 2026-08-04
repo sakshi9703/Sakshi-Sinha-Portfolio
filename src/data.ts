@@ -62,7 +62,7 @@ export const projects: Project[] = [
       },
     ],
 
-    github: "YOUR_GITHUB_LINK",
+    github: "https://github.com/sakshi9703/Job-Tracker",
 
     live: "https://track-your-job.netlify.app/",
   },

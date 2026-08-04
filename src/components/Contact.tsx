@@ -14,8 +14,8 @@ const LinkedinIcon = ({ size = 24 }: { size?: number }) => (
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-32 px-6 text-center">
-      <h2 className="text-4xl font-bold mb-8">Let's build something great.</h2>
+    <section id="contact" className="py-12 px-6 text-center">
+      <h2 className="text-4xl font-bold mb-5">Let's build something great.</h2>
       <div className="flex flex-col gap-4 items-center">
          <a href="mailto:sakshi0009sinha@gmail.com" className="text-xl text-blue-400 flex items-center gap-2"><Mail /> sakshi0009sinha@gmail.com</a>
       </div>

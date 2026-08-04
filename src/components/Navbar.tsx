@@ -51,7 +51,7 @@ export default function Navbar() {
             </a>
 
             <a
-              href="https://drive.google.com/file/d/1VJ2Zm4EE_8_d17jgYbgzkTWGBeEr2rr5/view?usp=drive_link"
+              href="/resume.pdf" download="Sakshi_Sinha_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition-colors duration-300"

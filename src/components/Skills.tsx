@@ -3,7 +3,7 @@ import { skillCategories } from '../data';
 
 export default function Skills() {
   return (
-    <section className="py-32 px-6">
+    <section className="py-12 px-6">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl font-bold mb-16">Skills</h2>
         {Object.entries(skillCategories).map(([category, skills], catIndex) => (

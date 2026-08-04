@@ -32,7 +32,7 @@ export default function FeaturedProjects() {
           </p>
         </motion.div>
 
-        <div className="space-y-40">
+        <div className="space-y-10">
           {projects.map((project) => (
             <FeaturedProject
               key={project.title}
